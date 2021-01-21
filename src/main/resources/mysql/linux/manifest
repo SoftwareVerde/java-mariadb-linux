@@ -1,0 +1,81 @@
+/mysql/linux/.version
+/mysql/linux/base/bin/mysql x
+/mysql/linux/base/bin/mysqld x
+/mysql/linux/base/bin/resolveip x
+/mysql/linux/base/extra/my_print_defaults x
+/mysql/linux/base/scripts/mysql_install_db x
+/mysql/linux/base/scripts/mysql_secure_installation x
+/mysql/linux/base/share/aclocal/mysql.m4
+/mysql/linux/base/share/charsets/Index.xml
+/mysql/linux/base/share/charsets/README
+/mysql/linux/base/share/charsets/armscii8.xml
+/mysql/linux/base/share/charsets/ascii.xml
+/mysql/linux/base/share/charsets/cp1250.xml
+/mysql/linux/base/share/charsets/cp1251.xml
+/mysql/linux/base/share/charsets/cp1256.xml
+/mysql/linux/base/share/charsets/cp1257.xml
+/mysql/linux/base/share/charsets/cp850.xml
+/mysql/linux/base/share/charsets/cp852.xml
+/mysql/linux/base/share/charsets/cp866.xml
+/mysql/linux/base/share/charsets/dec8.xml
+/mysql/linux/base/share/charsets/geostd8.xml
+/mysql/linux/base/share/charsets/greek.xml
+/mysql/linux/base/share/charsets/hebrew.xml
+/mysql/linux/base/share/charsets/hp8.xml
+/mysql/linux/base/share/charsets/keybcs2.xml
+/mysql/linux/base/share/charsets/koi8r.xml
+/mysql/linux/base/share/charsets/koi8u.xml
+/mysql/linux/base/share/charsets/latin1.xml
+/mysql/linux/base/share/charsets/latin2.xml
+/mysql/linux/base/share/charsets/latin5.xml
+/mysql/linux/base/share/charsets/latin7.xml
+/mysql/linux/base/share/charsets/macce.xml
+/mysql/linux/base/share/charsets/macroman.xml
+/mysql/linux/base/share/charsets/swe7.xml
+/mysql/linux/base/share/czech/errmsg.sys
+/mysql/linux/base/share/danish/errmsg.sys
+/mysql/linux/base/share/dutch/errmsg.sys
+/mysql/linux/base/share/english/errmsg.sys
+/mysql/linux/base/share/errmsg-utf8.txt
+/mysql/linux/base/share/estonian/errmsg.sys
+/mysql/linux/base/share/fill_help_tables.sql
+/mysql/linux/base/share/french/errmsg.sys
+/mysql/linux/base/share/german/errmsg.sys
+/mysql/linux/base/share/greek/errmsg.sys
+/mysql/linux/base/share/groonga-normalizer-mysql/README.md
+/mysql/linux/base/share/groonga-normalizer-mysql/lgpl-2.0.txt
+/mysql/linux/base/share/groonga/COPYING
+/mysql/linux/base/share/groonga/README.md
+/mysql/linux/base/share/hindi/errmsg.sys
+/mysql/linux/base/share/hungarian/errmsg.sys
+/mysql/linux/base/share/italian/errmsg.sys
+/mysql/linux/base/share/japanese/errmsg.sys
+/mysql/linux/base/share/korean/errmsg.sys
+/mysql/linux/base/share/maria_add_gis_sp.sql
+/mysql/linux/base/share/maria_add_gis_sp_bootstrap.sql
+/mysql/linux/base/share/mroonga/AUTHORS
+/mysql/linux/base/share/mroonga/COPYING
+/mysql/linux/base/share/mroonga/install.sql
+/mysql/linux/base/share/mroonga/uninstall.sql
+/mysql/linux/base/share/mysql_performance_tables.sql
+/mysql/linux/base/share/mysql_system_tables.sql
+/mysql/linux/base/share/mysql_system_tables_data.sql
+/mysql/linux/base/share/mysql_test_data_timezone.sql
+/mysql/linux/base/share/mysql_test_db.sql
+/mysql/linux/base/share/mysql_to_mariadb.sql
+/mysql/linux/base/share/norwegian-ny/errmsg.sys
+/mysql/linux/base/share/norwegian/errmsg.sys
+/mysql/linux/base/share/pam_user_map.so x
+/mysql/linux/base/share/polish/errmsg.sys
+/mysql/linux/base/share/portuguese/errmsg.sys
+/mysql/linux/base/share/romanian/errmsg.sys
+/mysql/linux/base/share/russian/errmsg.sys
+/mysql/linux/base/share/serbian/errmsg.sys
+/mysql/linux/base/share/slovak/errmsg.sys
+/mysql/linux/base/share/spanish/errmsg.sys
+/mysql/linux/base/share/swedish/errmsg.sys
+/mysql/linux/base/share/ukrainian/errmsg.sys
+/mysql/linux/base/share/user_map.conf
+/mysql/linux/connect.sh x
+/mysql/linux/init.sh x
+/mysql/linux/run.sh x

@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+}
+
+group 'com.softwareverde'
+version '10.5.8'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies { }
+
+sourceSets {
+    main {
+        java
+        resources
+    }
+    test {
+        java
+        resources
+
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+task makeJar(type: Jar) {
+    manifest {
+        attributes  'Implementation-Title': 'Java MariaDb Binaries - Linux',
+                    'Implementation-Version': archiveVersion,
+                    'Main-Class': 'com.softwareverde.database.Main'
+    }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+
+    archiveBaseName = project.name
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    from sourceSets.main.output
+
+    with jar
+}
