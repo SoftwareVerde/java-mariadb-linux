@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.softwareverde'
-version '10.5.8'
+version '10.5.8-p1'
 
 sourceCompatibility = 1.8
 
@@ -30,8 +30,7 @@ sourceSets {
 task makeJar(type: Jar) {
     manifest {
         attributes  'Implementation-Title': 'Java MariaDb Binaries - Linux',
-                    'Implementation-Version': archiveVersion,
-                    'Main-Class': 'com.softwareverde.database.Main'
+                    'Implementation-Version': archiveVersion
     }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar

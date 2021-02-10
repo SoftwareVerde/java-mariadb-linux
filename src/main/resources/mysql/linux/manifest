@@ -1,5 +1,7 @@
 /mysql/linux/.version
 /mysql/linux/base/bin/mysql x
+/mysql/linux/base/bin/mysql_upgrade x
+/mysql/linux/base/bin/mysqlcheck x
 /mysql/linux/base/bin/mysqld x
 /mysql/linux/base/bin/resolveip x
 /mysql/linux/base/extra/my_print_defaults x
@@ -78,4 +80,6 @@
 /mysql/linux/base/share/user_map.conf
 /mysql/linux/connect.sh x
 /mysql/linux/init.sh x
+/mysql/linux/lib/libtinfo.so.5
 /mysql/linux/run.sh x
+/mysql/linux/upgrade.sh x
