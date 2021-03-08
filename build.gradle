@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.softwareverde'
-version '10.5.8-p1'
+version '10.5.9'
 
 sourceCompatibility = 1.8
 

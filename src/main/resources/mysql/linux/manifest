@@ -1,12 +1,63 @@
 /mysql/linux/.version
+/mysql/linux/base/bin/aria_chk x
+/mysql/linux/base/bin/aria_dump_log x
+/mysql/linux/base/bin/aria_ftdump x
+/mysql/linux/base/bin/aria_pack x
+/mysql/linux/base/bin/aria_read_log x
+/mysql/linux/base/bin/aria_s3_copy x
+/mysql/linux/base/bin/garbd x
+/mysql/linux/base/bin/innochecksum x
+/mysql/linux/base/bin/mariabackup x
+/mysql/linux/base/bin/mariadb-config x
+/mysql/linux/base/bin/mariadb-conv x
+/mysql/linux/base/bin/mbstream x
+/mysql/linux/base/bin/msql2mysql x
+/mysql/linux/base/bin/my_print_defaults x
+/mysql/linux/base/bin/myisam_ftdump x
+/mysql/linux/base/bin/myisamchk x
+/mysql/linux/base/bin/myisamlog x
+/mysql/linux/base/bin/myisampack x
+/mysql/linux/base/bin/myrocks_hotbackup x
 /mysql/linux/base/bin/mysql x
+/mysql/linux/base/bin/mysql_client_test x
+/mysql/linux/base/bin/mysql_config x
+/mysql/linux/base/bin/mysql_convert_table_format x
+/mysql/linux/base/bin/mysql_find_rows x
+/mysql/linux/base/bin/mysql_fix_extensions x
+/mysql/linux/base/bin/mysql_ldb x
+/mysql/linux/base/bin/mysql_plugin x
+/mysql/linux/base/bin/mysql_secure_installation x
+/mysql/linux/base/bin/mysql_setpermission x
+/mysql/linux/base/bin/mysql_tzinfo_to_sql x
 /mysql/linux/base/bin/mysql_upgrade x
+/mysql/linux/base/bin/mysql_waitpid x
+/mysql/linux/base/bin/mysqlaccess x
+/mysql/linux/base/bin/mysqladmin x
+/mysql/linux/base/bin/mysqlbinlog x
 /mysql/linux/base/bin/mysqlcheck x
 /mysql/linux/base/bin/mysqld x
+/mysql/linux/base/bin/mysqld_multi x
+/mysql/linux/base/bin/mysqld_safe x
+/mysql/linux/base/bin/mysqld_safe_helper x
+/mysql/linux/base/bin/mysqldump x
+/mysql/linux/base/bin/mysqldumpslow x
+/mysql/linux/base/bin/mysqlhotcopy x
+/mysql/linux/base/bin/mysqlimport x
+/mysql/linux/base/bin/mysqlshow x
+/mysql/linux/base/bin/mysqlslap x
+/mysql/linux/base/bin/mysqltest x
+/mysql/linux/base/bin/mytop x
+/mysql/linux/base/bin/perror x
+/mysql/linux/base/bin/replace x
+/mysql/linux/base/bin/resolve_stack_dump x
 /mysql/linux/base/bin/resolveip x
+/mysql/linux/base/bin/sst_dump x
+/mysql/linux/base/bin/wsrep_sst_common
+/mysql/linux/base/bin/wsrep_sst_mariabackup x
+/mysql/linux/base/bin/wsrep_sst_mysqldump x
+/mysql/linux/base/bin/wsrep_sst_rsync_wan x
 /mysql/linux/base/extra/my_print_defaults x
 /mysql/linux/base/scripts/mysql_install_db x
-/mysql/linux/base/scripts/mysql_secure_installation x
 /mysql/linux/base/share/aclocal/mysql.m4
 /mysql/linux/base/share/charsets/Index.xml
 /mysql/linux/base/share/charsets/README
