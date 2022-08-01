@@ -1,0 +1,202 @@
+/mysql/linux/.version
+/mysql/linux/base/COPYING
+/mysql/linux/base/CREDITS
+/mysql/linux/base/INSTALL-BINARY
+/mysql/linux/base/README-wsrep
+/mysql/linux/base/README.md
+/mysql/linux/base/THIRDPARTY
+/mysql/linux/base/bin/aria_chk x
+/mysql/linux/base/bin/aria_dump_log x
+/mysql/linux/base/bin/aria_ftdump x
+/mysql/linux/base/bin/aria_pack x
+/mysql/linux/base/bin/aria_read_log x
+/mysql/linux/base/bin/aria_s3_copy x
+/mysql/linux/base/bin/galera_new_cluster x
+/mysql/linux/base/bin/galera_recovery x
+/mysql/linux/base/bin/garb-systemd x
+/mysql/linux/base/bin/garbd x
+/mysql/linux/base/bin/innochecksum x
+/mysql/linux/base/bin/mariadb x
+/mysql/linux/base/bin/mariadb-access x
+/mysql/linux/base/bin/mariadb-admin x
+/mysql/linux/base/bin/mariadb-backup x
+/mysql/linux/base/bin/mariadb-binlog x
+/mysql/linux/base/bin/mariadb-check x
+/mysql/linux/base/bin/mariadb-client-test x
+/mysql/linux/base/bin/mariadb-conv x
+/mysql/linux/base/bin/mariadb-convert-table-format x
+/mysql/linux/base/bin/mariadb-dump x
+/mysql/linux/base/bin/mariadb-dumpslow x
+/mysql/linux/base/bin/mariadb-find-rows x
+/mysql/linux/base/bin/mariadb-fix-extensions x
+/mysql/linux/base/bin/mariadb-hotcopy x
+/mysql/linux/base/bin/mariadb-import x
+/mysql/linux/base/bin/mariadb-ldb x
+/mysql/linux/base/bin/mariadb-plugin x
+/mysql/linux/base/bin/mariadb-secure-installation x
+/mysql/linux/base/bin/mariadb-service-convert x
+/mysql/linux/base/bin/mariadb-setpermission x
+/mysql/linux/base/bin/mariadb-show x
+/mysql/linux/base/bin/mariadb-slap x
+/mysql/linux/base/bin/mariadb-test x
+/mysql/linux/base/bin/mariadb-tzinfo-to-sql x
+/mysql/linux/base/bin/mariadb-upgrade x
+/mysql/linux/base/bin/mariadb-waitpid x
+/mysql/linux/base/bin/mariadb_config x
+/mysql/linux/base/bin/mariadbd-multi x
+/mysql/linux/base/bin/mariadbd-safe x
+/mysql/linux/base/bin/mariadbd-safe-helper x
+/mysql/linux/base/bin/mariadbd x
+/mysql/linux/base/bin/mbstream x
+/mysql/linux/base/bin/msql2mysql x
+/mysql/linux/base/bin/my_print_defaults x
+/mysql/linux/base/bin/myisam_ftdump x
+/mysql/linux/base/bin/myisamchk x
+/mysql/linux/base/bin/myisamlog x
+/mysql/linux/base/bin/myisampack x
+/mysql/linux/base/bin/myrocks_hotbackup x
+/mysql/linux/base/bin/mysql_config x
+/mysql/linux/base/bin/mytop x
+/mysql/linux/base/bin/perror x
+/mysql/linux/base/bin/replace x
+/mysql/linux/base/bin/resolve_stack_dump x
+/mysql/linux/base/bin/resolveip x
+/mysql/linux/base/bin/sst_dump x
+/mysql/linux/base/bin/wsrep_sst_backup x
+/mysql/linux/base/bin/wsrep_sst_common
+/mysql/linux/base/bin/wsrep_sst_mariabackup x
+/mysql/linux/base/bin/wsrep_sst_mysqldump x
+/mysql/linux/base/bin/wsrep_sst_rsync x
+/mysql/linux/base/scripts/mariadb-install-db x
+/mysql/linux/base/share/aclocal/mysql.m4
+/mysql/linux/base/share/bulgarian/errmsg.sys
+/mysql/linux/base/share/charsets/Index.xml
+/mysql/linux/base/share/charsets/README
+/mysql/linux/base/share/charsets/armscii8.xml
+/mysql/linux/base/share/charsets/ascii.xml
+/mysql/linux/base/share/charsets/cp1250.xml
+/mysql/linux/base/share/charsets/cp1251.xml
+/mysql/linux/base/share/charsets/cp1256.xml
+/mysql/linux/base/share/charsets/cp1257.xml
+/mysql/linux/base/share/charsets/cp850.xml
+/mysql/linux/base/share/charsets/cp852.xml
+/mysql/linux/base/share/charsets/cp866.xml
+/mysql/linux/base/share/charsets/dec8.xml
+/mysql/linux/base/share/charsets/geostd8.xml
+/mysql/linux/base/share/charsets/greek.xml
+/mysql/linux/base/share/charsets/hebrew.xml
+/mysql/linux/base/share/charsets/hp8.xml
+/mysql/linux/base/share/charsets/keybcs2.xml
+/mysql/linux/base/share/charsets/koi8r.xml
+/mysql/linux/base/share/charsets/koi8u.xml
+/mysql/linux/base/share/charsets/latin1.xml
+/mysql/linux/base/share/charsets/latin2.xml
+/mysql/linux/base/share/charsets/latin5.xml
+/mysql/linux/base/share/charsets/latin7.xml
+/mysql/linux/base/share/charsets/macce.xml
+/mysql/linux/base/share/charsets/macroman.xml
+/mysql/linux/base/share/charsets/swe7.xml
+/mysql/linux/base/share/chinese/errmsg.sys
+/mysql/linux/base/share/czech/errmsg.sys
+/mysql/linux/base/share/danish/errmsg.sys
+/mysql/linux/base/share/dutch/errmsg.sys
+/mysql/linux/base/share/english/errmsg.sys
+/mysql/linux/base/share/errmsg-utf8.txt
+/mysql/linux/base/share/estonian/errmsg.sys
+/mysql/linux/base/share/fill_help_tables.sql
+/mysql/linux/base/share/french/errmsg.sys
+/mysql/linux/base/share/german/errmsg.sys
+/mysql/linux/base/share/greek/errmsg.sys
+/mysql/linux/base/share/groonga-normalizer-mysql/README.md
+/mysql/linux/base/share/groonga-normalizer-mysql/lgpl-2.0.txt
+/mysql/linux/base/share/groonga/COPYING
+/mysql/linux/base/share/groonga/README.md
+/mysql/linux/base/share/hindi/errmsg.sys
+/mysql/linux/base/share/hungarian/errmsg.sys
+/mysql/linux/base/share/italian/errmsg.sys
+/mysql/linux/base/share/japanese/errmsg.sys
+/mysql/linux/base/share/korean/errmsg.sys
+/mysql/linux/base/share/maria_add_gis_sp.sql
+/mysql/linux/base/share/maria_add_gis_sp_bootstrap.sql
+/mysql/linux/base/share/mroonga/AUTHORS
+/mysql/linux/base/share/mroonga/COPYING
+/mysql/linux/base/share/mroonga/install.sql
+/mysql/linux/base/share/mroonga/uninstall.sql
+/mysql/linux/base/share/mysql_performance_tables.sql
+/mysql/linux/base/share/mysql_sys_schema.sql
+/mysql/linux/base/share/mysql_system_tables.sql
+/mysql/linux/base/share/mysql_system_tables_data.sql
+/mysql/linux/base/share/mysql_test_data_timezone.sql
+/mysql/linux/base/share/mysql_test_db.sql
+/mysql/linux/base/share/norwegian-ny/errmsg.sys
+/mysql/linux/base/share/norwegian/errmsg.sys
+/mysql/linux/base/share/pam_user_map.so x
+/mysql/linux/base/share/polish/errmsg.sys
+/mysql/linux/base/share/portuguese/errmsg.sys
+/mysql/linux/base/share/romanian/errmsg.sys
+/mysql/linux/base/share/russian/errmsg.sys
+/mysql/linux/base/share/serbian/errmsg.sys
+/mysql/linux/base/share/slovak/errmsg.sys
+/mysql/linux/base/share/spanish/errmsg.sys
+/mysql/linux/base/share/swedish/errmsg.sys
+/mysql/linux/base/share/ukrainian/errmsg.sys
+/mysql/linux/base/share/user_map.conf
+/mysql/linux/base/support-files/binary-configure x
+/mysql/linux/base/support-files/magic
+/mysql/linux/base/support-files/mini-benchmark x
+/mysql/linux/base/support-files/mysql-log-rotate x
+/mysql/linux/base/support-files/mysql.server x
+/mysql/linux/base/support-files/mysqld_multi.server x
+/mysql/linux/base/support-files/policy/apparmor/README
+/mysql/linux/base/support-files/policy/apparmor/usr.sbin.mysqld
+/mysql/linux/base/support-files/policy/apparmor/usr.sbin.mysqld.local
+/mysql/linux/base/support-files/policy/selinux/README
+/mysql/linux/base/support-files/policy/selinux/mariadb-server.fc
+/mysql/linux/base/support-files/policy/selinux/mariadb-server.te
+/mysql/linux/base/support-files/policy/selinux/mariadb.pp
+/mysql/linux/base/support-files/policy/selinux/mariadb.te
+/mysql/linux/base/support-files/systemd/mariadb-extra@.socket
+/mysql/linux/base/support-files/systemd/mariadb.service
+/mysql/linux/base/support-files/systemd/mariadb@.service
+/mysql/linux/base/support-files/systemd/mariadb@.socket
+/mysql/linux/base/support-files/systemd/use_galera_new_cluster.conf
+/mysql/linux/base/support-files/wsrep.cnf
+/mysql/linux/base/support-files/wsrep_notify x
+/mysql/linux/connect.sh x
+/mysql/linux/init.sh x
+/mysql/linux/lib/libtinfo.so.5
+/mysql/linux/run.sh x
+/mysql/linux/upgrade.sh x
+/mysql/linux/base/bin/mariabackup -> mariadb-backup l
+/mysql/linux/base/bin/mariadb-config -> mariadb_config l
+/mysql/linux/base/bin/mysql -> mariadb l
+/mysql/linux/base/bin/mysql_client_test -> mariadb-client-test l
+/mysql/linux/base/bin/mysql_convert_table_format -> mariadb-convert-table-format l
+/mysql/linux/base/bin/mysql_find_rows -> mariadb-find-rows l
+/mysql/linux/base/bin/mysql_fix_extensions -> mariadb-fix-extensions l
+/mysql/linux/base/bin/mysql_ldb -> mariadb-ldb l
+/mysql/linux/base/bin/mysql_plugin -> mariadb-plugin l
+/mysql/linux/base/bin/mysql_secure_installation -> mariadb-secure-installation l
+/mysql/linux/base/bin/mysql_setpermission -> mariadb-setpermission l
+/mysql/linux/base/bin/mysql_tzinfo_to_sql -> mariadb-tzinfo-to-sql l
+/mysql/linux/base/bin/mysql_upgrade -> mariadb-upgrade l
+/mysql/linux/base/bin/mysql_waitpid -> mariadb-waitpid l
+/mysql/linux/base/bin/mysqlaccess -> mariadb-access l
+/mysql/linux/base/bin/mysqladmin -> mariadb-admin l
+/mysql/linux/base/bin/mysqlbinlog -> mariadb-binlog l
+/mysql/linux/base/bin/mysqlcheck -> mariadb-check l
+/mysql/linux/base/bin/mysqld -> mariadbd l
+/mysql/linux/base/bin/mysqld_multi -> mariadbd-multi l
+/mysql/linux/base/bin/mysqld_safe -> mariadbd-safe l
+/mysql/linux/base/bin/mysqld_safe_helper -> mariadbd-safe-helper l
+/mysql/linux/base/bin/mysqldump -> mariadb-dump l
+/mysql/linux/base/bin/mysqldumpslow -> mariadb-dumpslow l
+/mysql/linux/base/bin/mysqlhotcopy -> mariadb-hotcopy l
+/mysql/linux/base/bin/mysqlimport -> mariadb-import l
+/mysql/linux/base/bin/mysqlshow -> mariadb-show l
+/mysql/linux/base/bin/mysqlslap -> mariadb-slap l
+/mysql/linux/base/bin/mysqltest -> mariadb-test l
+/mysql/linux/base/bin/wsrep_sst_rsync_wan -> wsrep_sst_rsync l
+/mysql/linux/base/scripts/mysql_install_db -> mariadb-install-db l
+/mysql/linux/base/support-files/systemd/mysql.service -> ./mariadb.service l
+/mysql/linux/base/support-files/systemd/mysqld.service -> ./mariadb.service l

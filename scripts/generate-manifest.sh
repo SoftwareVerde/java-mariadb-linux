@@ -2,23 +2,29 @@
 
 echo -n 'Version: '
 read version
+echo
 
 build='linux'
 
-cd "src/main/resources/mysql/${build}"
-pwd
+resourceDir="src/main/resources/mysql/${build}"
 
-echo "${version}" > ".version"
+rm -rf "${resourceDir}/*"
+
+cd "mariadb" >/dev/null
+
+manifestFile="$(pwd)/manifest"
+versionFile="$(pwd)/.version"
+
+rm -f "${manifestFile}"
+
+echo -n "${version}" > "${versionFile}"
 
 previousEntry=''
-
-rm -f manifest
 for file in $(find . -type f | sed "s|^\./||" | grep -v 'manifest' | sort | uniq); do
     isExecutable=0
     if [[ -x "${file}" ]]; then
         isExecutable=1
     fi
-
 
     # Merge part-files into a single manifest entry.
     if [[ "${file}" =~ .*part[0-9][0-9]*$ ]]; then
@@ -28,12 +34,28 @@ for file in $(find . -type f | sed "s|^\./||" | grep -v 'manifest' | sort | uniq
         continue;
     fi
 
-    previousEntry="${file}"
-    echo -n "/mysql/${build}/${file}" >> manifest
+    echo -n "/mysql/${build}/${file}" >> "${manifestFile}"
     if [[ "${isExecutable}" -eq "1" ]]; then
-        echo -n ' x' >> manifest
+        echo -n ' x' >> "${manifestFile}"
     fi
-    echo >> manifest
+    echo >> "${manifestFile}"
+
+    previousEntry="${file}"
 done
 
-cat manifest
+for file in $(find . -type l | sed "s|^\./||" | grep -v 'manifest' | sort | uniq); do
+    # Is symbolic link...
+
+    actualTarget=$(readlink $file)
+
+    echo -n "/mysql/${build}/${file}" >> "${manifestFile}"
+    echo -n ' -> ' >> "${manifestFile}"
+    echo -n "${actualTarget}" >> "${manifestFile}"
+    echo -n ' l' >> "${manifestFile}"
+    echo >> "${manifestFile}"
+done
+
+
+cd - >/dev/null
+
+cat "${manifestFile}"

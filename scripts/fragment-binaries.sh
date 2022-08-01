@@ -6,7 +6,8 @@
 
 build='linux'
 
-cd src/main/resources/mysql/${build}
+# cd src/main/resources/mysql/${build}
+cd mariadb
 
 maxSize=33554432
 
