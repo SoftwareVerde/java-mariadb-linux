@@ -45,3 +45,11 @@ task makeJar(type: Jar) {
 
     with jar
 }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
