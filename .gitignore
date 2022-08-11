@@ -4,6 +4,3 @@ build
 out
 release
 .DS_Store
-src/main/resources/mysql/osx
-src/main/resources/mysql/linux
-src/main/resources/mysql/windows

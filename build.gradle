@@ -1,11 +1,15 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
-group 'com.softwareverde'
-version '10.8.3'
+group = 'com.softwareverde'
+version = '10.8.3'
 
-sourceCompatibility = 1.8
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
 
 repositories {
     mavenCentral()
@@ -32,8 +36,6 @@ task makeJar(type: Jar) {
         attributes  'Implementation-Title': 'Java MariaDb Binaries - Linux',
                     'Implementation-Version': archiveVersion
     }
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
-    with jar
 
     archiveBaseName = project.name
 
