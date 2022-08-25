@@ -164,6 +164,7 @@
 /mysql/linux/base/support-files/wsrep_notify x
 /mysql/linux/connect.sh x
 /mysql/linux/init.sh x
+/mysql/linux/lib/libncurses.so.5
 /mysql/linux/lib/libtinfo.so.5
 /mysql/linux/run.sh x
 /mysql/linux/upgrade.sh x

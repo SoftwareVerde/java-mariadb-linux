@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.softwareverde'
-version = '10.8.3'
+version = '10.8.3-p1'
 
 compileJava {
     sourceCompatibility = JavaVersion.VERSION_1_8
